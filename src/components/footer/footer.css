@@ -1,0 +1,123 @@
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 350px;
+    background-color: #191818;
+    display: grid;
+
+    justify-content: center;
+}
+
+.item-footer-1{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+
+
+
+.footer-side-1{
+    height: 100%;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 50px;
+}
+.logo-sandang{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.logo-sandang span{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+#icon-footer{
+    font-size: 3rem;
+    color: #3b6bf6;
+}
+.text-input{
+    display: grid;
+    gap: 10px;
+}
+.text-input span {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.text-input p{
+    color: white;
+}
+.inp-footer-btn{
+    height: 40px;
+    display: flex;
+    gap: 10px;
+}
+.inp-footer{
+    width: 50%;
+}
+.inp-footer-btn input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.btn-footer button{
+    height: 100%;
+    padding: 0px 12px;
+    cursor: pointer;
+    border: none;
+    background-color:#3b6bf6 ;
+    color: white;
+    border-radius: 8px;
+}
+.items-list {
+        margin-top: 10px;
+}
+.items-list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.items-list ul li {
+    margin: 5px 30px;
+}
+.items-list ul li a{
+   color: #afafaf;
+}
+.card-list-foter{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-side-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.list1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.title-list span{
+    color: white;
+}
+
+.footer-side-2{
+    width: 600px;
+
+}
