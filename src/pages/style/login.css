@@ -1,0 +1,111 @@
+.testbo {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginForm {
+  border-radius: 10px;
+  width: 70%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fffdfe;
+}
+.allbox-login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-login img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.formlogin {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.bigtt {
+  text-align: center;
+}
+.bigtt p {
+  font-size: 12px;
+}
+
+/*start part for input*/
+
+.inp-form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp-label {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inp-label input {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #f6f7fb;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.newpass-checkbox {
+  margin-top: 10px;
+  display: flex;
+  gap: 4.5rem;
+}
+.remember {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.inp-label label {
+  font-size: 13px;
+}
+
+.btn-login {
+  margin-top: 20px;
+  width: 100%;
+  height: 45px;
+}
+.btn-login button {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.forgetpassword a {
+  font-size: 12px;
+  color: #121212;
+}
+
+/*end part for input*/
